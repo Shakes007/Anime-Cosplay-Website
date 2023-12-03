@@ -1,0 +1,47 @@
+ /*Heading formatting*/
+ h1{
+    color: darkgray;
+    text-align: center;
+    text-decoration: underline;
+    font: bold large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+ }
+
+ /*Paragraph formatting*/
+ p {
+    color: black;
+    text-align: center;
+    font: italic medium Arial, Helvetica;
+    font-weight: bold ;
+ }
+ /*Hovering for products.*/
+ .Product img {
+    width: 200px;
+    height: 200px;
+    transition: transform 0.2s;
+ }
+
+ .Product:hover img{
+    transform: scale(1.1);
+ }
+
+.Product:hover h4,
+.Product:hover p,
+.Product:hover button {
+    color:red
+}
+
+/*Style formatting for the form.*/
+.form{
+    margin: 20px;
+    padding:10px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.form input{
+    margin: 5px;
+    padding: 5px;
+    width: 100%;
+    background-color: darkgray;
+}
